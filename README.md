@@ -1,4 +1,7 @@
 # GraphicsExam
+
+Michael Giorgi 100749928
+
  Task #1
  floor, back wall and a controlable player as well as eemy have been implemented
  as well as two rotating lights and a light that follows the player
