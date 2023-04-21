@@ -19,7 +19,6 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (Vector3.Distance(transform.position, currentPos) <= 0.25f) SetCurrentPos();
-        Debug.Log(Vector3.Distance(transform.position, currentPos));
         if (rb.velocity.magnitude >= speed) rb.velocity = rb.velocity.normalized * speed;
         dir = (currentPos - transform.position).normalized;
         dir = new Vector3(dir.x, 0f, dir.z);
